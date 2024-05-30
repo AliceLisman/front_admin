@@ -40,22 +40,22 @@ export const AuthForm = (props) => {
         <label className={Styles["form__field"]}>
           <span className={Styles["form__field-title"]}>Email</span>
           <input
-            onInput={handleInput}
-            className={Styles["form__field-input"]}
-            name="identifier"
-            type="email"
-            placeholder="hello@world.com"
-          />
-        </label>
-        <label className={Styles["form__field"]}>
-          <span className={Styles["form__field-title"]}>Пароль</span>
-          <input
   onInput={handleInput}
   className={Styles["form__field-input"]}
   name="email"
   type="email"
   placeholder="hello@world.com"
 />
+        </label>
+        <label className={Styles["form__field"]}>
+          <span className={Styles["form__field-title"]}>Пароль</span>
+          <input
+            onInput={handleInput}
+            className={Styles["form__field-input"]}
+            type="password"
+            name="password"
+            placeholder="***********"
+          />
         </label>
       </div>
       {message.status && (

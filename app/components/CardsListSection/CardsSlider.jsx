@@ -9,6 +9,7 @@ import { Card } from "../Card/Card";
 import Styles from "./CardsSlider.module.css";
 import Link from "next/link";
 
+
 export const CardsSlider = (props) => {
   useEffect(() => {
     const options = {
